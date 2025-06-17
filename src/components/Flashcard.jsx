@@ -1,14 +1,18 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 // import './Flashcard.css';  <-- leave this out for now
 
 function Flashcard({ card }) {
   const [flipped, setFlipped] = useState(false);
 
+useEffect(() => {
+    setFlipped(false);
+  }, [card]);
+
   return (
     <div
       style={{
-        width: '300px',
-        height: '150px',
+        width: '460px',
+        height: '320px',
         margin: '1rem auto',
         padding: '1rem',
         border: '1px solid black',
@@ -16,7 +20,7 @@ function Flashcard({ card }) {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: '1.2rem',
+        fontSize: '3.2rem',
         backgroundColor: '#f9f9f9',
         cursor: 'pointer',
       }}

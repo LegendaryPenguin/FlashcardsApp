@@ -12,9 +12,11 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-      <h1>Flashcards Quiz</h1>
+      <h1>States and their Capitals Quiz!</h1>
       <p>Total cards: {flashcards.length}</p>
-
+    <p>
+    Card {currentIndex + 1} of {flashcards.length}
+    </p>
       <Flashcard card={flashcards[currentIndex]} />
 
       <button style={{ marginTop: '1rem' }} onClick={handleNext}>
