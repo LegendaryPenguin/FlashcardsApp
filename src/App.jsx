@@ -13,7 +13,6 @@ function App() {
   return (
     <div style={{ textAlign: 'center', marginTop: '2rem' }}>
       <h1>Flashcards Quiz</h1>
-      <p>Study and test yourself!</p>
       <p>Total cards: {flashcards.length}</p>
 
       <Flashcard card={flashcards[currentIndex]} />
