@@ -43,6 +43,7 @@ https://legendarypenguin.github.io/FlashcardsApp/
 Here's a walkthrough of implemented required features:
 
 <img src='https://imgur.com/a/8jv3st0' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://imgur.com/a/8jv3st0
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  Imagur
